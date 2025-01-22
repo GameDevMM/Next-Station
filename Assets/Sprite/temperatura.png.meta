@@ -1,0 +1,751 @@
+fileFormatVersion: 2
+guid: 42f6546e87a31c440b90964f16b40473
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7741306279639350039
+    second: temperatura_0
+  - first:
+      213: -3582590800861688800
+    second: temperatura_1
+  - first:
+      213: -4260371894080128478
+    second: temperatura_2
+  - first:
+      213: -1947379540843479279
+    second: temperatura_3
+  - first:
+      213: -420957676594196197
+    second: temperatura_4
+  - first:
+      213: -2422408008418941827
+    second: temperatura_5
+  - first:
+      213: 5820893287385914309
+    second: temperatura_6
+  - first:
+      213: -8961643980494918640
+    second: temperatura_7
+  - first:
+      213: -4115860471589652364
+    second: temperatura_8
+  - first:
+      213: -424992897816656170
+    second: temperatura_9
+  - first:
+      213: 6855792007654369737
+    second: temperatura_10
+  - first:
+      213: -6010222723996516793
+    second: temperatura_11
+  - first:
+      213: -7486934896384106749
+    second: temperatura_12
+  - first:
+      213: -184279892187337104
+    second: temperatura_13
+  - first:
+      213: -5357775922632541627
+    second: temperatura_14
+  - first:
+      213: 6183475102381114004
+    second: temperatura_15
+  - first:
+      213: -603331601264534788
+    second: temperatura_16
+  - first:
+      213: -4112140221928982161
+    second: temperatura_17
+  - first:
+      213: -2000183299321039933
+    second: temperatura_18
+  - first:
+      213: 2322507870027610912
+    second: temperatura_19
+  - first:
+      213: 747401500358172013
+    second: temperatura_20
+  - first:
+      213: 7399250370255631076
+    second: temperatura_21
+  - first:
+      213: 4339778087247845056
+    second: temperatura_22
+  - first:
+      213: -3521129232264449949
+    second: temperatura_23
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: temperatura_0
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1615
+        width: 110
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 187c360a2dce90a49a9ef1bb7c517827
+      internalID: -7741306279639350039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temperatura_1
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1705
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75723a9dd08c37c4c9b1df5338844166
+      internalID: -3582590800861688800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temperatura_2
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1425
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98b8e3fcc13f64a41a4a974a79c87300
+      internalID: -4260371894080128478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temperatura_3
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1385
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e442775a0e9ab3428bd9d6c8fb95183
+      internalID: -1947379540843479279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temperatura_4
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1425
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81a8fa6b7a174c4e95d79c1abdf5dde
+      internalID: -420957676594196197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temperatura_5
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1385
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc452b51782c0b4994200f4e71cb4c0
+      internalID: -2422408008418941827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temperatura_6
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1090
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be9866ea605f6c74584ed39c92ee9710
+      internalID: 5820893287385914309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temperatura_7
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1065
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa5b3ae025aae34fa4a4679b24cd096
+      internalID: -8961643980494918640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temperatura_8
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1065
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a9304845067ae43b5c1328f34b36dc
+      internalID: -4115860471589652364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temperatura_9
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 1070
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a38b56cbb7494746b06cd145121e7a9
+      internalID: -424992897816656170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temperatura_10
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 745
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 021e3779922283e4fb1d68a4ecdf3db9
+      internalID: 6855792007654369737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temperatura_11
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 795
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b8b08f0280958458d25a097537c4ab
+      internalID: -6010222723996516793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temperatura_12
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 745
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd185ee0e1719604aaa675ad7348cf4c
+      internalID: -7486934896384106749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temperatura_13
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 775
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fd01d508f51a245a1cdaa1e2af6029
+      internalID: -184279892187337104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temperatura_14
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 425
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac08f7f422e1a1c4b99869d6a3896652
+      internalID: -5357775922632541627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temperatura_15
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 475
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba08416f228af4428cceff6762bbf93
+      internalID: 6183475102381114004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temperatura_16
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 425
+        width: 65
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1612d92f4c509b44dbaba04e58f51ad2
+      internalID: -603331601264534788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temperatura_17
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 435
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0342cc5e9159cce479a35a6dd33df3ca
+      internalID: -4112140221928982161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temperatura_18
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 420
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0233ffc2bb53b1346aed88640d088442
+      internalID: -2000183299321039933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temperatura_19
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 420
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea21e5e5c149ac54e8629679912d1392
+      internalID: 2322507870027610912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temperatura_20
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 415
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ebad7d81eb5b94e9900b00434d8a42
+      internalID: 747401500358172013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temperatura_21
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 180
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e815de79d3e354da167a987fce5b4b
+      internalID: 7399250370255631076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temperatura_22
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 170
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5ae5a7202c0df4a950ccce223ff5ac
+      internalID: 4339778087247845056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: temperatura_23
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 95
+        width: 75
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc732247995bb14394da38a68fc43c9
+      internalID: -3521129232264449949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
