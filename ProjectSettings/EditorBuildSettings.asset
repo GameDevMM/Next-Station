@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Tutorial.unity
+    path: Assets/Scenes/MainMenu.unity
     guid: f984767886620f24aa96469ad1c5390a
   - enabled: 1
-    path: Assets/Scenes/CenaDialogo.unity
+    path: Assets/Scenes/Intro.unity
     guid: 4e64215bece0cea4b99cd125eebf87dd
   - enabled: 1
     path: Assets/Scenes/Estacoes/Verao.unity
