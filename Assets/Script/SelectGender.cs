@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
-public class SelectGender : MonoBehaviour
+public class IntroController : MonoBehaviour
 {
     public enum Gender
     {
@@ -28,8 +28,8 @@ public class SelectGender : MonoBehaviour
     {
         selectGenderButton.interactable = false;
 
-        maleButton.onClick.AddListener(() => ButtonsSelectGender(Gender.Male));
-        femaleButton.onClick.AddListener(() => ButtonsSelectGender(Gender.Female));
+        maleButton.onClick.AddListener(() => SelectGender(Gender.Male));
+        femaleButton.onClick.AddListener(() => SelectGender(Gender.Female));
     }
 
     void Update()
@@ -38,7 +38,7 @@ public class SelectGender : MonoBehaviour
         CheckTouchOutUI();
     }
 
-    void ButtonsSelectGender (Gender gender)
+    void SelectGender(Gender gender)
     {
         if (gender == selectedGender)
         {
