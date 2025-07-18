@@ -14,31 +14,30 @@ public class SelectGender : MonoBehaviour
     }
 
     [Header ("Animators Controller")]
-    public Animator femaleAnimator;
-    public Animator maleAnimator;
+    [SerializeField] private Animator femaleAnimator;
+    [SerializeField] private Animator maleAnimator;
 
     [Header("Buttons Controller")]
-    public Button maleButton;
-    public Button femaleButton;
-    public Button selectGenderButton;
+    [SerializeField] private Button maleButton;
+    [SerializeField] private Button femaleButton;
+    [SerializeField] private Button confirmGenderButton;
 
     public Gender selectedGender { get; private set; } = Gender.None;
     
     void Start()
     {
-        selectGenderButton.interactable = false;
+        confirmGenderButton.interactable = false;
 
-        maleButton.onClick.AddListener(() => ButtonsSelectGender(Gender.Male));
-        femaleButton.onClick.AddListener(() => ButtonsSelectGender(Gender.Female));
+        maleButton.onClick.AddListener(() => ChoiceGender(Gender.Male));
+        femaleButton.onClick.AddListener(() => ChoiceGender(Gender.Female));
     }
 
     void Update()
     {
-        CheckMouseClickOutUI();
-        CheckTouchOutUI();
+        CheckInputOutUI();
     }
 
-    void ButtonsSelectGender (Gender gender)
+    void ChoiceGender(Gender gender)
     {
         if (gender == selectedGender)
         {
@@ -46,7 +45,7 @@ public class SelectGender : MonoBehaviour
         }
 
         selectedGender = gender;
-        selectGenderButton.interactable = true;
+        confirmGenderButton.interactable = true;
 
         switch(gender)
         {
@@ -65,10 +64,16 @@ public class SelectGender : MonoBehaviour
     void DeselectGender()
     {
         selectedGender = Gender.None;
-        selectGenderButton.interactable = false;
+        confirmGenderButton.interactable = false;
 
         maleAnimator.Play("M_Idle");
         femaleAnimator.Play("F_Idle");
+    }
+
+    void CheckInputOutUI()
+    {
+        CheckMouseClickOutUI();
+        CheckTouchOutUI();
     }
 
     void CheckMouseClickOutUI()
