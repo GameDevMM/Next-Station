@@ -4,14 +4,16 @@ using UnityEngine;
 using TMPro;
 using System;
 
+public enum SpeedLevel
+{
+    Slow,
+    Medium,
+    Fast
+}
+
 public class TrainSpeedController : MonoBehaviour
 {
-    public enum SpeedLevel
-    {
-        Slow,
-        Medium,
-        Fast
-    }
+    public static TrainSpeedController instance;
 
     [Header ("Speed Settings")]
     public float slowSpeed;
@@ -19,11 +21,16 @@ public class TrainSpeedController : MonoBehaviour
     public float fastSpeed;
 
     [Header("Current State")]
-    [SerializeField] private SpeedLevel currentSpeedLevel = SpeedLevel.Medium;
+    public SpeedLevel currentSpeedLevel = SpeedLevel.Medium;
     public float currentSpeed { get; private set; }
 
     [Header("UI")]
     public TextMeshProUGUI currentSpeedText;
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     void Start()
     {
@@ -34,8 +41,7 @@ public class TrainSpeedController : MonoBehaviour
     {
         if((int)currentSpeedLevel < Enum.GetValues(typeof(SpeedLevel)).Length - 1)
         {
-            currentSpeedLevel++;
-            UpdateSpeedUI();
+            SetSpeedLevel(currentSpeedLevel + 1);
         }
     }
 
@@ -43,8 +49,8 @@ public class TrainSpeedController : MonoBehaviour
     {
         if ((int)currentSpeedLevel > 0)
         {
-            currentSpeedLevel--;
-            UpdateSpeedUI();
+            SetSpeedLevel(currentSpeedLevel - 1);
+
         }
     }
 
@@ -66,6 +72,15 @@ public class TrainSpeedController : MonoBehaviour
                 currentSpeed = fastSpeed;
                 currentSpeedText.text = "Rápida";
                 break;
+        }
+    }
+
+    public void SetSpeedLevel(SpeedLevel level)
+    {
+        if(currentSpeedLevel != level)
+        {
+            currentSpeedLevel = level;
+            UpdateSpeedUI();
         }
     }
 }

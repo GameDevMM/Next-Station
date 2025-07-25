@@ -2,6 +2,7 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -156,6 +157,10 @@ public class DialogueManager : MonoBehaviour
         {
             case "open_name_input":
                 UI_IntroController.Instance.ShowNameInput();
+                break;
+
+            case "start_game":
+                SceneManager.LoadScene("Summer");
                 break;
         }
     }
